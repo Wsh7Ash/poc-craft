@@ -1,0 +1,208 @@
+{
+  "name": "poc-craft",
+  "version": "1.0.0",
+  "category": "bug-bounty-poc",
+  "skill_count": 50,
+  "skills": [
+    {
+      "slug": "automate-bounded-loop",
+      "sha256": "d8d811639f2b23249903de77b0d1f532674731c30730c1d0802741b18c07501a"
+    },
+    {
+      "slug": "automate-ci-regression",
+      "sha256": "b5c08c5efa2fb26b708f2368936c47076b0dc56852f8d39a74514bbd731bf710"
+    },
+    {
+      "slug": "automate-parallel-safety",
+      "sha256": "9c36aae03ba101bf2f117fc6a46e938a34149e1b9bd83dc046d0b7acb25144c9"
+    },
+    {
+      "slug": "cleanup-artifact-retention",
+      "sha256": "148e961c70d6409517d6bb01dc90345017fc9e9c9ac73b496f5e4e555409a784"
+    },
+    {
+      "slug": "cleanup-revoke-credentials",
+      "sha256": "412acca001bfe4cb76addcc6281b9420050a4d84de8806b7a36631f20497ec74"
+    },
+    {
+      "slug": "cleanup-test-data",
+      "sha256": "0fee82df52ae3736d279b9bfb8faf4d2bedcbb6f1c6e176c4468caf8b2b953b1"
+    },
+    {
+      "slug": "evidence-bundle-index",
+      "sha256": "fc99af658a937bb5558019b05bfbddf87f77a62c1ff3d939cc635f1edabcc174"
+    },
+    {
+      "slug": "evidence-hash-chain",
+      "sha256": "5dec0c9e58eb2d5164d17febefd7f68175edba102d7a1355a9f98a86c771a26b"
+    },
+    {
+      "slug": "evidence-raw-capture",
+      "sha256": "04c77c2a384c8acb78625d195c9d7d1e3185e7bbb52f80cd4d3d51bbad937cdb"
+    },
+    {
+      "slug": "evidence-timeline",
+      "sha256": "ed2d845c3002df111106f39ef766a246d087da289657549063f6ec34626d264f"
+    },
+    {
+      "slug": "harness-cleanup-fixture",
+      "sha256": "b58cf58468e764b97963fb36bf8d8080182c902112ec132a895f630b0050b0cb"
+    },
+    {
+      "slug": "harness-python-scaffold",
+      "sha256": "72215bad5dbca157798f26c2a3dfac60cf25a0d6814c834abf977c8020a3d903"
+    },
+    {
+      "slug": "harness-repeat-for-flakiness",
+      "sha256": "2724cea506fac493cd0d20da120e45df63084d80687328b3a37b9cb76e4c6e9a"
+    },
+    {
+      "slug": "harness-timeout-and-retry",
+      "sha256": "477e3ad2c5bcc567d99df05e9527b37c2c0bbee0b425e1d92a20f73b07d19744"
+    },
+    {
+      "slug": "isolate-blast-radius-map",
+      "sha256": "3345bce7136cce51337d013dbc2a719eb66395c49799fe5233f02ca5515adec1"
+    },
+    {
+      "slug": "isolate-dependency-check",
+      "sha256": "59e77aa192d0e60781d9d1aa4ad2cafd9782717d20edf7af719b10cc79ae346c"
+    },
+    {
+      "slug": "isolate-variable-bisect",
+      "sha256": "3684d119e201a3908886ab60a223a08e88bc55cc9bc72580fad277d1c5b04264"
+    },
+    {
+      "slug": "minimize-ddmin",
+      "sha256": "23b5f661587325038feba9c1487262e6c93cbfa0dca2fb6c5dcb1ccb06727a31"
+    },
+    {
+      "slug": "minimize-predicate-design",
+      "sha256": "d7b4dc3f8c2e9d843e7fd06bc8ed15526408080b9aa13c75a5ebd774d171698c"
+    },
+    {
+      "slug": "minimize-preserve-preconditions",
+      "sha256": "cab7740c9d61e5bd17f02209f45f8b943067aae0bba69ea0a4194882e4f0a743"
+    },
+    {
+      "slug": "minimize-structure-aware",
+      "sha256": "8f6ddc767427e1ce2b1360a799b09b108c0f5d88ed0960bb6488595af4b4f52b"
+    },
+    {
+      "slug": "payload-boundary-values",
+      "sha256": "2efa429999279fd95b96476cf6ab22fa50e159951bc9f9c5cab76f124d630361"
+    },
+    {
+      "slug": "payload-encoding-match",
+      "sha256": "9e0fb0ecca290dd332a0323a67a1e6b462e66813702f9aa1bf1c4494c7ba3a29"
+    },
+    {
+      "slug": "payload-header-smuggling-probe",
+      "sha256": "64780fd003d51f53276bb98a668cfb01956965e1e93e6c7fc2bbd2372fcc192d"
+    },
+    {
+      "slug": "payload-path-encoding-layers",
+      "sha256": "90998730a39ee716890fd90b899710d44ae1c4e5f7d0d20fc1547892247c01b7"
+    },
+    {
+      "slug": "payload-type-confusion",
+      "sha256": "196ec56ba6185e9f68e5ecb8182a188a43de792af0538eb61fd05e75f945d297"
+    },
+    {
+      "slug": "regression-adjacent-endpoints",
+      "sha256": "2bd78d9263388928dd0617acdf793c6e66a62a240c67a1cab4344e8bd7c43c09"
+    },
+    {
+      "slug": "regression-closeout-note",
+      "sha256": "e2891aaadafdf3ce411b53f41fa4cb3e47dc8efaf9cf410c26d1073d35ed7252"
+    },
+    {
+      "slug": "regression-payload-library",
+      "sha256": "aa03a62376fdcc3528844067d550a172964868d8ab3497721b634908f90ac710"
+    },
+    {
+      "slug": "regression-verify-fix",
+      "sha256": "00f5bf5174e637b4734e0b807bd64f064a2dad5b12190e6b70c3263063b49454"
+    },
+    {
+      "slug": "report-attachment-hygiene",
+      "sha256": "8179cf05b8abebf3defd1537eaf4cd4ed913c1910a7b5f9dc3a0affbb5fa2863"
+    },
+    {
+      "slug": "report-impact-statement",
+      "sha256": "b450f355ad4d72d5edd83a024ff52c9459a13fa36be1b41436b439a2c2b458fb"
+    },
+    {
+      "slug": "report-reproduction-steps",
+      "sha256": "50e4731f125bf02e959e9c2c08938519347731f9f1b996137f64244293bd3699"
+    },
+    {
+      "slug": "report-summary-line",
+      "sha256": "e59a50675a95787c5daf393fa5853dc32cc36393eae5826f273be9fc2ff0c648"
+    },
+    {
+      "slug": "reproduce-clean-session",
+      "sha256": "18a670991e906de06a9a9733dc721bacc997f994057facebf0d2838c5d6a94f3"
+    },
+    {
+      "slug": "reproduce-from-report",
+      "sha256": "5d9a47a81a98676245e43390819095a29a969ecbf1532dc61d256b245a87d410"
+    },
+    {
+      "slug": "reproduce-single-request",
+      "sha256": "a1d289db52307dd5d3bca7cd48c8d2d662aa4c2d3cb10c556a22498569bdf1a8"
+    },
+    {
+      "slug": "reproduce-state-snapshot",
+      "sha256": "2d803e50d11e746e78b467035f97f339a589c472a321a90054964502eba69f30"
+    },
+    {
+      "slug": "scope-authorised-accounts",
+      "sha256": "fee6716d591d7e883d0ff6b10acca8f7562d6a0869df6ad46d6865d20ccd2bb4"
+    },
+    {
+      "slug": "scope-confirm-target",
+      "sha256": "97bd69ca764feb9e128c22a1f584ad9df0c96e7694264394e49cc61ec6c4bcb0"
+    },
+    {
+      "slug": "scope-minimal-impact",
+      "sha256": "052380c453be772e36c6325d517c3d00ecf661a1c5e013824d07c142285adeb6"
+    },
+    {
+      "slug": "triage-duplicate-check",
+      "sha256": "7e636cccbc6f9a3552b819cd49af3fca6d1e899b7ff440a638b584dd112456d5"
+    },
+    {
+      "slug": "triage-fix-scope",
+      "sha256": "7bcee637c3b87a8b4fe930075e6cb93b9fe7f90470d1a9e0c7b5ad7524b0b82d"
+    },
+    {
+      "slug": "triage-reproducer-review",
+      "sha256": "6cc6b771a4daa700114f21e631de18f0701d06ff61269bfd11e0b237a6f0706c"
+    },
+    {
+      "slug": "triage-severity-evidence",
+      "sha256": "071db348af8dac856873d3abb12727fd6f1619ace13054c90ed13fbe5321d55d"
+    },
+    {
+      "slug": "verify-determinism",
+      "sha256": "32e031adf517162ddae62302b3109c2e4340aaf093b55bb2a3b8749f601f60eb"
+    },
+    {
+      "slug": "verify-fresh-account",
+      "sha256": "7c9be8e731ba47c1d7478e870c34cee64335c12cbbafa41872d78550ad4c191e"
+    },
+    {
+      "slug": "verify-impact-minimal",
+      "sha256": "af15febb8314b6aff3cf50d6a33b58823db56b235d63490f5a44bde59edae1bf"
+    },
+    {
+      "slug": "verify-negative-control",
+      "sha256": "c8755a807ef3bd930fbfa7dfd6e7655738085b8029127c9b0038d622625a78c5"
+    },
+    {
+      "slug": "verify-oracle-specific",
+      "sha256": "5d22bb44df5316b9111363e03a34b8ae81bc75e8fabe8a6b825418ecd70fe6d2"
+    }
+  ]
+}

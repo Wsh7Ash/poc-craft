@@ -1,0 +1,46 @@
+$ poccraft validate
+50/50 skills valid
+
+$ poccraft list --phase minimize
+minimize-ddmin                     minimize     Minimise a payload with delta debugging
+minimize-predicate-design          minimize     Write a predicate that cannot be gamed
+minimize-preserve-preconditions    minimize     Keep the preconditions the minimiser cannot see
+minimize-structure-aware           minimize     Minimise structured input without breaking the format
+4 skill(s)
+
+$ poccraft minimize --input results/demo/payload.txt --predicate 'python results/demo/check.py {input}' --unit line --out results/demo/minimal.txt
+minimal input written to results/demo/minimal.txt
+77 -> 11 bytes (14.3%) in 6 predicate calls, 2 rounds
+
+$ cat results/demo/minimal.txt
+MAGIC: yes
+
+$ poccraft minimize --input results/demo/payload.txt --predicate 'false' 
+error: the predicate does not hold on the unmodified input
+exit=1
+
+$ poccraft scaffold --url https://api.example.com/v2/export --method POST --payload payload.json --oracle 'status == 500' --repeat 3 | head -24
+#!/usr/bin/env python3
+"""Generated PoC harness. Edit the oracle, not the request plumbing."""
+
+from __future__ import annotations
+
+import sys
+import pathlib
+import urllib.error
+import urllib.request
+
+URL = 'https://api.example.com/v2/export'
+METHOD = 'POST'
+PAYLOAD = pathlib.Path('payload.json')
+ORACLE = 'status == 500'
+REPEAT = 3
+HEADERS = [
+]
+
+
+def send(body: bytes) -> tuple[int, bytes]:
+    request = urllib.request.Request(URL, data=body, method=METHOD)
+    for header in HEADERS:
+        name, _, value = header.partition(":")
+        request.add_header(name.strip(), value.strip())
